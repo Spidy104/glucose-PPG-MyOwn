@@ -55,6 +55,23 @@ Traditional blood glucose monitoring often requires finger-pricking, which is pa
 
 ---
 
+## ⚠️ Build Failing: TensorFlow Not Available
+
+**Note:**  
+This project requires TensorFlow (tested with TensorFlow 2.x and Keras 2.3).  
+TensorFlow is **not available for Python versions above 3.11** as of May 2025.  
+If you see errors like `ModuleNotFoundError: No module named 'tensorflow'` or `Could not find a version that satisfies the requirement tensorflow`, please:
+
+- Use Python 3.10 or 3.11 (64-bit recommended)
+- Upgrade pip:  
+  `python -m pip install --upgrade pip`
+- Then install TensorFlow:  
+  `pip install tensorflow`
+
+If you are using Python 3.12 or newer, please downgrade your Python version to run this project.
+
+---
+
 ## Download
 
 - **Dataset & Source Code:**  
